@@ -1,0 +1,91 @@
+.tit {
+    height: 160px;
+    width: 100%; }
+.botones{
+    color: black !important;
+    width: 40%;
+    margin-left: 19%;
+}
+.botones2{
+    color: black !important;
+    width: 40%;
+}
+.bg_nav {
+  background-color: #2cb8b1; 
+    width: 100%;
+    height: 5%;}
+
+
+    .videopresen{
+        margin-top: 2%;
+        margin-left: 25%;
+        width: 50%;
+        border: solid 3px black;}
+    .videosyfotos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 30%;}
+        .videosyfotos .fotosinicio{
+            margin-top: 2%;
+            margin-left: 18%;
+            width: 90%;
+            height: 40%;}
+            .videosyfotos .fotosinicio .imagenes{
+                margin-left: 5%;
+                margin-top: 4%;
+                margin-bottom: 2%;
+                border: solid 3px black;
+            }
+    footer{
+        margin-top: 8%;
+        position: relative;
+        top: 100%;
+        border: solid 1px black;
+        font-family: 'Signika', sans-serif;
+        background-color: #2cb8b1; }
+        footer .p-footer {
+            font-size: 17px; }
+            footer .p-footer .pagfooter {
+            margin-left: 25px;
+            margin-right: 15px;
+            font-style: oblique;
+            font-size: 20px;
+            color: red;
+            font-family: 'Rubik', sans-serif; 
+            }
+
+    footer .logo {
+        width: 8vh;
+        height: 8vh; }
+h1 {
+  height: 114px;
+  width: 100%;
+  margin-bottom: 0% !important;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px !important;
+  font-style: oblique;
+  font-family: 'Rubik', sans-serif;
+  color: #a0aeba; }  
+
+/*Informacion:*/
+.videosyfotosinfo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    border: solid 2px black;
+    padding: 2%;
+}
+.videopreseninfo{
+    width: 40%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border: solid green;
+}
