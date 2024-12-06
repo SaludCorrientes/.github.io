@@ -89,3 +89,39 @@ h1 {
     margin-top: 1%;
     border: solid green;
 }
+
+@media (max-width: 564px){
+    .videopresen{
+        margin-top: 2%;
+        margin-left: 25%;
+        width: 55%;
+        border: solid 3px black;}
+    .videosyfotos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 30%;}
+        .videosyfotos .fotosinicio{
+            margin-top: 2%;
+            margin-left: 18%;
+            width: 100%;
+            height: 40%;}
+            .videosyfotos .fotosinicio .imagenes{
+                margin-left: 5%;
+                margin-top: 4%;
+                margin-bottom: 2%;
+                width: 70%;
+                border: solid 3px black;
+            }
+    .botones{
+        color: black !important;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .botones2{
+        color: black !important;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
