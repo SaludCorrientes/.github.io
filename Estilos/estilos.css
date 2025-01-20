@@ -17,34 +17,37 @@
 
 
     .videopresen{
+        width: 100%;}
+    .imagenes1{
+        margin-top: 1%;
+        margin-left: 27%;
+        width: 43%;
+    }
+    .imagenes2{
+        margin-top: 1%;
+        margin-left: 20%;
+         width: 56%;
+         margin-bottom: 1%;
+    }
+    .noticia{
+        margin-left: 29%;
+        margin-right: 20%;
         margin-top: 2%;
-        margin-left: 25%;
-        width: 50%;
-        border: solid 3px black;}
-    .videosyfotos{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        width: 100%;
-        height: 30%;}
-        .videosyfotos .fotosinicio{
-            margin-top: 2%;
-            margin-left: 18%;
-            width: 90%;
-            height: 40%;}
-            .videosyfotos .fotosinicio .imagenes{
-                margin-left: 5%;
-                margin-top: 4%;
-                margin-bottom: 2%;
-                border: solid 3px black;
-            }
+        width: 43%;
+        border: solid 3px black;
+    }
+    .imagenesmuseo2{
+        margin-left: 6%;
+         width: 40%;
+         margin-bottom: 1%;
+    }
     footer{
         margin-top: 8%;
         position: relative;
         top: 100%;
         border: solid 1px black;
         font-family: 'Signika', sans-serif;
-        background-color: #2cb8b1; }
+        background-color: #76b62a; }
         footer .p-footer {
             font-size: 17px; }
             footer .p-footer .pagfooter {
@@ -73,7 +76,7 @@ h1 {
   font-family: 'Rubik', sans-serif;
   color: #a0aeba; }  
 
-/*Informacion:*/
+/*Noticias:*/
 .videosyfotosinfo{
     display: flex;
     flex-flow: row wrap;
@@ -83,12 +86,41 @@ h1 {
     border: solid 2px black;
     padding: 2%;
 }
-.videopreseninfo{
-    width: 20%;
+.videopresen1{
+    width: 100%;
     margin-bottom: 2%;
     margin-top: 1%;
-    border: solid green;
 }
+.noticiachama{
+    margin-left: 21%;
+    margin-right: 20%;
+    margin-top: 2%;
+    width: 57%;
+    border: solid 3px black;
+}
+.imageneschama{
+    margin-left: 6%;
+     width: 40%;
+     margin-bottom: 1%;
+}
+.imageneschama2{
+    margin-left: 6%;
+     width: 40%;
+     margin-bottom: 1%;
+}
+.imagenesfuego{
+    margin-left: 20%;
+     width: 60%;
+     margin-bottom: 1%;
+}
+.noticiafuego{
+    margin-left: 27%;
+    margin-right: 20%;
+    margin-top: 2%;
+    width: 45%;
+    border: solid 3px black;
+}
+
 @media (min-width: 1760px){
     .videosyfotos{
         display: flex;
@@ -110,29 +142,6 @@ h1 {
 }
 
 @media (max-width: 564px){
-    .videopresen{
-        margin-top: 2%;
-        margin-left: 25%;
-        width: 55%;
-        border: solid 3px black;}
-    .videosyfotos{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        width: 100%;
-        height: 30%;}
-        .videosyfotos .fotosinicio{
-            margin-top: 2%;
-            margin-left: 18%;
-            width: 100%;
-            height: 40%;}
-            .videosyfotos .fotosinicio .imagenes{
-                margin-left: 5%;
-                margin-top: 4%;
-                margin-bottom: 2%;
-                width: 70%;
-                border: solid 3px black;
-            }
     .botones{
         color: black !important;
         width: 55%;
@@ -149,6 +158,18 @@ h1 {
         margin-top: 1%;
         border: solid green;
     }
+    .noticia{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .noticiachama{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .noticiafuego{
+        margin-left: 5%;
+        width: 90%;
+    }
 }
 @media (max-width: 400px){
     .botones{
@@ -163,5 +184,17 @@ h1 {
     }
     .logo{
         padding: 40%; 
+    }
+    .noticia{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .noticiachama{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .noticiafuego{
+        margin-left: 5%;
+        width: 90%;
     }
 }
